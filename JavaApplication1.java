@@ -9,7 +9,7 @@ package javaapplication1;
  *
  * @author hubster
  */
-public class JavaApplication1 {
+public class LinearExpression {
 
     /**
      * @param args the command line arguments
