@@ -3,19 +3,32 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
+/*https://www.w3schools.com/java/java_user_input.asp*/
+
 package javaapplication3;
+import java.util.Scanner; // Import the Scanner class 
 
 /**
  *
- * @author hubster
+ * @author ShaiBeekman
  */
-public class JavaApplication3 {
+public class LinearExpression {
+       
+    int upperbound = pm;
 
     /**
      * @param args the command line arguments
      */
-    public static void LinearExpression(String[] args) {
-        // TODO code application logic here
-    }
-    
+    public static void main(String[] args) {
+        Scanner myObj = new Scanner(System.in);  // Create a Scanner object
+        System.out.println("Enter number into factorial function");
+        for (int g = 1; g <= upperbound(); g++) {
+            String newExp =""+"("+m+")";
+            for (h=operations; 0 <=operations; h--){
+            newExp+pemdas[5];
+                    }
+        }
+    }    
 }
+
