@@ -21,9 +21,12 @@ public class LinearExpression {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Scanner myObj = new Scanner(System.in);  // Create a Scanner object
-        System.out.println("Enter number into factorial function");
+        Scanner scannerObj = new Scanner(System.in);  // Create a Scanner object
+        System.out.println("Enter integer into factorial function");
+        String integer = scannerObj.nextLine();  // Read user input
+        System.out.println("Integer input: " + integer);  // Output user input
         for (int g = 1; g <= upperbound(); g++) {
+            
             String newExp =""+"("+m+")";
             for (h=operations; 0 <=operations; h--){
             newExp+pemdas[5];
