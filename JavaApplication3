@@ -14,23 +14,27 @@ import java.util.Scanner; // Import the Scanner class
  * @author ShaiBeekman
  */
 public class LinearExpression {
-       
-    int upperbound = pm;
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        
+      String[] PEMDAS = {"-,+,/,*,^,()"}
+
+//    int upperbound = pm;
         Scanner scannerObj = new Scanner(System.in);  // Create a Scanner object
         System.out.println("Enter integer into factorial function");
-        String integer = scannerObj.nextLine();  // Read user input
-        System.out.println("Integer input: " + integer);  // Output user input
-        for (int g = 1; g <= upperbound(); g++) {
-            
+        String m = scannerObj.nextLine();  // Read user input
+        System.out.println("Integer input: " + m);  // Output user input
+        System.out.println("Enter upper bound for number of terms in the expression");
+        String upperbound = scannerObj.nextLine();  // Read user input
+        System.out.println("Upperbound:" +upperbound);
+        for (int g = 1; g <= upperbound; g++) {
             String newExp =""+"("+m+")";
             for (h=operations; 0 <=operations; h--){
-            newExp+pemdas[5];
-                    }
+                newExp+pemdas[5];
+            }
         }
     }    
 }
